@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "POP",
+    name: "pop",
     platforms: [.iOS(.v10)],
     products: [
-        .library(name: "POP", targets: ["pop-ios-framework"])
+        .library(name: "pop", targets: ["pop-ios-framework"])
     ],
     targets: [
         .target(
