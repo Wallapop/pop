@@ -9,7 +9,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "pop-ios-framework"
+            name: "pop-ios-framework",
+            path: "pop"
         )
     ]
 )
