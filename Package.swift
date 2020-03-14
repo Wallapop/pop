@@ -10,7 +10,8 @@ let package = Package(
     targets: [
         .target(
             name: "pop-ios-framework",
-            path: "pop"
+            path: "pop",
+            publicHeadersPath: "pop"
         )
     ]
 )
